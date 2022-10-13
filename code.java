@@ -58,6 +58,9 @@ class Graph {
     g.edge[7].src = 4;   // edge 4---5
     g.edge[7].dest = 5;
 
+    // print graph
+    for(int i = 0; i < noEdges; i++) {
+      System.out.println(g.edge[i].src + " - " + g.edge[i].dest);
     }
 
   }
